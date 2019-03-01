@@ -36,10 +36,10 @@ li{
 .contacts a {
 	color: black;
 	border-bottom: 1px dotted;
-    text-decoration: none;
-    display: inline-block;
-    height: 1.2em;
-    line-height: 1.0em;
+	text-decoration: none;
+	display: inline-block;
+	height: 1.2em;
+	line-height: 1.0em;
 }
 nav {
 	background-color: #e0e0e0;
@@ -255,8 +255,8 @@ p.copy {
 .feedback a {
 	color: black;
 	border-bottom: 1px dotted;
-    text-decoration: none;
-    display: inline-block;
-    height: 1.2em;
-    line-height: 1.0em;
+	text-decoration: none;
+	display: inline-block;
+	height: 1.2em;
+	line-height: 1.0em;
 }
