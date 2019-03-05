@@ -2,84 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Rublebank</title>
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-	<div class="container-1">
-		<header>
-			<div class="nav-links">
-				<div class="links">
-					<a href="#">Частным клиентам</a>
-					<a href="#">Малому бизнесу и ИП</a>
-					<a href="#">Корпоративным клиентам</a>
-					<a href="#">Финансовым организациям</a>
-					<a href="#">Акционерам и инвесторам</a>
-					<a href="#">Партнерам</a>
-				</div>
-			</div>
-			<div class="contacts">
-				<img class="rublebank-logo" src="img/logo.png" alt="rublebank">
-				<a href="#">Отделения и банкоматы</a>
-				<a href="#">Обратная связь</a>
-				<p><img src="img/call-answer.png" alt=""> +7(495)999-00-99</p>
-			</div>
-		</header>
-		<nav>
-			<div class="main-menu">
-				<a href="#">ВЗЯТЬ КРЕДИТ</a>
-				<a href="#">ВЫБРАТЬ КАРТУ</a>
-				<a href="#">ВЛОЖИТЬ И ЗАРАБОТАТЬ</a>
-				<a href="#">ОПЛАТИТЬ И ПЕРЕВЕСТИ</a>
-				<a href="#">ЗАСТРАХОВАТЬ СЕБЯ И ИМУЩЕСТВО</a>
-			</div>
+	<header>
+		<nav class="main-menu">
+			<ul class="main-menu-list container">
+				<li><a href="#" class="main-menu-link">Частным клиентам</a></li>
+				<li><a href="#" class="main-menu-link">Малому бизнесу и ИП</a></li>
+				<li><a href="#" class="main-menu-link">Корпоративным клиентам</a></li>
+				<li><a href="#" class="main-menu-link">Финансовым организациям</a></li>
+				<li><a href="#" class="main-menu-link">Акционерам и инвесторам</a></li>
+				<li><a href="#" class="main-menu-link">Партнерам</a></li>
+			</ul>
 		</nav>
-		<div class="content">
-			<section>
-				<div class="box1">
-					<span class="credit">
-						<p>Кредит на любые цели</p>
-					</span>
-					<a href="#" class="button-green1">Подробнее</a>
-				</div>
-				<div class="box2">
-					<p>Ипотека</p>
-				</div>
-				<div class="box3">
-					<p>Вернем налоги</p>
-				</div>
-				<div class="box4">
-					<p>Молодежная<br>дебетовая карта</p>
-					<a href="#" class="button-empty">Подробнее</a>
-				</div>
-			</section>
-			<aside>
-				<div class="aside1">
-					<p>Rublebank<br><span class="online">онлайн</span></p>
-				</div>
-				<div class="aside2">
-					<p>Карта с индивидуальным дизайном</p>
-					<a href="#" class="button-green2">Подробнее</a>
-				</div>
-			</aside>
-		</div>
-		<footer>
-			<div class="footer">
-				<div class="copyright">
-					<p class="copy">(С)1997-2018 Rublebank</p>
-					<p>Генеральная лицензия на осуществление банковских операций от 11 августа 2015 года. Регистрационный номер - 1234.</p>
-				</div>
-				<div class="feedback">
-					<a href="#">Обратная связь</a>
-					<p>Россия, Москва, 113337, ул. Вавулова, д.49</p>
-				</div>
-				<div class="info">
-					<p>Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
-					<p>Информация, обязательная к размещению</p>
+		<section class="contacts container">
+			<img class="logo" src="img/logo.png" alt="rublebank">
+			<a href="#">Отделения и банкоматы</a>
+			<a href="#">Обратная связь</a>
+			<p><img src="img/call-answer.png" alt=""> +7(495)999-00-99</p>
+		</section>
+		<section class="secondary-menu">
+			<ul class="secondary-menu-list container">
+				<li><a href="#">ВЗЯТЬ КРЕДИТ</a></li>
+				<li><a href="#">ВЫБРАТЬ КАРТУ</a></li>
+				<li><a href="#">ВЛОЖИТЬ И ЗАРАБОТАТЬ</a></li>
+				<li><a href="#">ОПЛАТИТЬ И ПЕРЕВЕСТИ</a></li>
+				<li><a href="#">ЗАСТРАХОВАТЬ СЕБЯ И ИМУЩЕСТВО</a></li>
+			</ul>
+		</section>
+	</header>
+	<main class="main-content container">
+		<section class="content-left">
+			<div class="content-left-top">
+				<div class="left-top-item-1">
+					<div class="slider-content">
+						<h1 class="main-title">Кредит<br>на любые<br>цели</h1>
+						<a href="#" class="button-green-1">Подробнее</a>
+					</div>
 				</div>
 			</div>
-		</footer>
-	</div>
+			<div class="content-left-bottom">
+				<div class="left-bottom-item-1">
+					<div class="offer-1">
+						<img src="img/house.png" class="offer-icon-1">
+						<h3 class="offer-title-1">Ипотека</h3>
+					</div>
+				</div>
+				<div class="left-bottom-item-2">
+					<div class="offer-2">
+						<img src="img/pig.png" class="offer-icon-2">
+						<h3 class="offer-title-2">Вернем налоги</h3>
+					</div>
+				</div>
+				<div class="left-bottom-item-3">
+					<div class="offer-3">
+						<h3 class="offer-title-3">Молодежная<br>дебетовая карта</h3>
+						<a href="#" class="button-blue">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<aside class="content-right">
+			<div class="right-offer-1">
+				<h2 class="right-offer-title-1">Rublebank<br><span style="color: #00aeef">онлайн</span></h2>
+			</div>
+			<div class="right-offer-2">
+				<h2 class="right-offer-title-2">Карта с индивидуальным дизайном</h2>
+				<a href="#" class="button-green-2">Подробнее</a>
+			</div>
+		</aside>
+	</main>
+	<footer class="footer">
+		<div class="footer-content container">
+			<div class="copyright">
+				<p style="color: black;">(С)1997-2018 Rublebank</p>
+				<p>Генеральная лицензия на осуществление банковских операций от 11 августа 2015 года. Регистрационный номер - 1234.</p>
+			</div>
+			<div class="feedback">
+				<p><a href="#">Обратная связь</a></p>
+				<p>Россия, Москва, 113337, ул. Вавулова, д.49</p>
+			</div>
+			<div class="info">
+				<p>Информация о процентных ставках по договорам банковского вклада с физическими лицами</p>
+				<p>Информация, обязательная к размещению</p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
