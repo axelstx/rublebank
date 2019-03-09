@@ -8,7 +8,11 @@ body {
 li{
 	list-style: none;
 }
-
+.shadow {
+	background: #fc0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
 /*Footer press*/
 .wrapper {
 	display: flex;
