@@ -247,6 +247,7 @@ a.button-green-2 {
 .content-credit-target {
 	border: 1px solid lightgrey;
 	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 }
 
@@ -276,6 +277,7 @@ a.button-green-2 {
 	border: 1px solid lightgrey;
 	border-radius: 10px;
 	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .content-hypothec h1 {
 	text-align: center;
@@ -293,6 +295,7 @@ a.button-green-2 {
 	border: 1px solid lightgrey;
 	border-radius: 10px;
 	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .content-take-credit h1 {
 	text-align: center;
@@ -310,6 +313,7 @@ a.button-green-2 {
 	border: 1px solid lightgrey;
 	border-radius: 10px;
 	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .content-choose-card h1 {
 	text-align: center;
