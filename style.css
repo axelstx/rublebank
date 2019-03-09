@@ -8,6 +8,20 @@ body {
 li{
 	list-style: none;
 }
+
+/*Footer press*/
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+.main-content {
+	display: flex;
+	flex: auto;
+}
+/*Footer press*/
+
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -31,7 +45,16 @@ li{
 	align-items: center;
 	padding: 30px 0px;
 }
-.contacts a {
+.contacts a:nth-of-type(2) {
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+	display: inline-block;
+	height: 1.2em;
+	line-height: 1.0em;
+}
+.contacts a:nth-of-type(3) {
 	text-decoration: none;
 	color: black;
 	border-bottom: 1px dotted;
@@ -110,9 +133,13 @@ h1.main-title {
 	width: 180px;
 	background-color: #00aeef;
 }
+.offer-1 a {
+	display: block;
+	padding: 68px 0;
+	text-decoration: none;
+}
 .offer-1 {
 	text-align: center;
-	margin-top: 70px;
 }
 .offer-title-1 {
 	margin-top: 10px;
@@ -123,9 +150,13 @@ h1.main-title {
 	width: 180px;
 	background-color: #00aeef;
 }
+.offer-2 a {
+	display: block;
+	padding: 63px 0;
+	text-decoration: none;
+}
 .offer-2 {
 	text-align: center;
-	margin-top: 65px;
 }
 .offer-title-2 {
 	margin-top: 10px;
@@ -205,4 +236,83 @@ a.button-green-2 {
 	display: inline-block;
 	height: 1.2em;
 	line-height: 1.0em;
+}
+
+/*CREDIT-TARGET PAGE*/
+
+.content-credit-target {
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+
+}
+
+.content-credit-target h1 {
+	text-align: center;
+	padding: 20px;	
+}
+.content-credit-target p {
+	padding: 20px;
+	text-align: justify;
+	justify-content: center;
+	line-height: 28px;
+}
+.harold {
+	overflow: hidden;
+	display: block;
+	margin: 15px auto 25px;
+	width: 710px;
+}
+.harold img {
+	width: 710px;
+}
+
+/*HYPOTHEC PAGE*/
+
+.content-hypothec {
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	padding: 20px;
+}
+.content-hypothec h1 {
+	text-align: center;
+}
+.content-hypothec p {
+	padding: 20px 0;
+	text-align: justify;
+	justify-content: center;
+	line-height: 28px;
+}
+
+/*TAKE-CREDIT PAGE*/
+
+.content-take-credit {
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	padding: 20px;
+}
+.content-take-credit h1 {
+	text-align: center;
+}
+.content-take-credit p {
+	padding: 20px 0;
+	text-align: justify;
+	justify-content: center;
+	line-height: 28px;
+}
+
+/*CHOOSE-CARD PAGE*/
+
+.content-choose-card {
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	padding: 20px;
+}
+.content-choose-card h1 {
+	text-align: center;
+}
+.content-choose-card p {
+	padding: 20px 0;
+	text-align: justify;
+	justify-content: center;
+	line-height: 28px;
 }
