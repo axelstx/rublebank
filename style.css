@@ -8,11 +8,7 @@ body {
 li{
 	list-style: none;
 }
-.shadow {
-	background: white;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding: 10px;
-}
+
 /*Footer press*/
 .wrapper {
 	display: flex;
@@ -246,7 +242,7 @@ a.button-green-2 {
 
 .content-credit-target {
 	border: 1px solid lightgrey;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 }
@@ -275,7 +271,7 @@ a.button-green-2 {
 
 .content-hypothec {
 	border: 1px solid lightgrey;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	padding: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -293,7 +289,7 @@ a.button-green-2 {
 
 .content-take-credit {
 	border: 1px solid lightgrey;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	padding: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -311,7 +307,7 @@ a.button-green-2 {
 
 .content-choose-card {
 	border: 1px solid lightgrey;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	padding: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
